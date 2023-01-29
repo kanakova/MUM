@@ -1,0 +1,14 @@
+Nejdéle trvala dávková konverze JPEG XL, nejrychlejší byla JPEG, u kterého zároveò platilo èím nižší kvalita tím rychlejší konverze.
+
+
+1.     Úvod – zasazení úkolu do kontextu probírané látky, co bude pøedmìtem zkoumání.
+
+2.     Motivace a hypotézy – popsat, proè budeme daný jev zkoumat, co oèekáváme za výsledky.
+
+3.     Metodika, zpùsob øešení – popsat a zdùvodnit, jakým zpùsobem budeme problém øešit, jaké použijeme nástroje (hardware, software,...), jaká použijeme testovací data, jakým zpùsobem budeme posuzovat (hodnotit, mìøit, srovnávat,...) výsledky, atd.
+
+4.     Výsledky – popis dosažených výsledkù (èeho jsme dosáhli a jakými postupy), pøehledná vizualizace èíselných údajù (tabulky, grafy), demonstrace nejpodstatnìjších výstupù (pøehrání audio èi video ukázek, projekce obrázkù,...).
+
+5.     Diskuse – úvaha nad tím, proè vyšlo právì to, co vyšlo, zdùvodnìní výsledkù, nalezení pøípadných analogií z pøíbuzných oblastí, komentáø k tomu, co se povedlo a co se nepovedlo a proè, upozornìní na nejpodstatnìjší jevy.
+
+6.     Závìr – popsat, jaké ponauèení si vezmeme z dosažených výsledkù a ze zpùsobu jejich získání (na co si dát pøíštì pozor, jak správnì postupovat pøi øešení podobných úkolù,...), jak se dají výsledky použít v praxi, jaké dùsledky z našich výstupù plynou.

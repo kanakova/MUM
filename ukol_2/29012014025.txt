@@ -1,0 +1,63 @@
+ExifTool Version Number         : 12.54
+File Name                       : 29012014025.jpg
+Directory                       : .
+File Size                       : 1116 kB
+File Modification Date/Time     : 2014:01:29 09:30:38+01:00
+File Access Date/Time           : 2023:01:29 14:56:48+01:00
+File Creation Date/Time         : 2022:12:19 21:00:47+01:00
+File Permissions                : -rw-rw-rw-
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Exif Byte Order                 : Little-endian (Intel, II)
+Make                            : Nokia
+Camera Model Name               : E52-1
+Orientation                     : Horizontal (normal)
+X Resolution                    : 300
+Y Resolution                    : 300
+Resolution Unit                 : inches
+Y Cb Cr Positioning             : Centered
+Exposure Time                   : 1/977
+F Number                        : 2.4
+ISO                             : 100
+Exif Version                    : 0220
+Date/Time Original              : 2014:01:29 12:30:37
+Create Date                     : 2014:01:29 12:30:37
+Components Configuration        : Y, Cb, Cr, -
+Shutter Speed Value             : 1/976
+Aperture Value                  : 1.4
+Light Source                    : Unknown
+Flash                           : Auto, Did not fire
+Focal Length                    : 3.3 mm
+Warning                         : [minor] Unrecognized MakerNotes
+Sub Sec Time                    : 184
+Sub Sec Time Original           : 184
+Sub Sec Time Digitized          : 184
+Flashpix Version                : 0100
+Color Space                     : sRGB
+Exif Image Width                : 2048
+Exif Image Height               : 1536
+Custom Rendered                 : Normal
+Exposure Mode                   : Auto
+White Balance                   : Auto
+Digital Zoom Ratio              : 1
+Scene Capture Type              : Standard
+Gain Control                    : None
+Compression                     : JPEG (old-style)
+Thumbnail Offset                : 12760
+Thumbnail Length                : 14300
+Image Width                     : 2048
+Image Height                    : 1536
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Aperture                        : 2.4
+Image Size                      : 2048x1536
+Megapixels                      : 3.1
+Shutter Speed                   : 1/977
+Create Date                     : 2014:01:29 12:30:37.184
+Date/Time Original              : 2014:01:29 12:30:37.184
+Thumbnail Image                 : (Binary data 14300 bytes, use -b option to extract)
+Focal Length                    : 3.3 mm
+Light Value                     : 12.5

@@ -1,0 +1,109 @@
+ExifTool Version Number         : 12.54
+File Name                       : P1010268.jpg
+Directory                       : .
+File Size                       : 432 kB
+File Modification Date/Time     : 2001:12:31 22:00:00+01:00
+File Access Date/Time           : 2023:01:29 15:16:59+01:00
+File Creation Date/Time         : 2023:01:29 15:16:28+01:00
+File Permissions                : -rw-rw-rw-
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+Exif Byte Order                 : Little-endian (Intel, II)
+Image Description               : OLYMPUS DIGITAL CAMERA
+Make                            : OLYMPUS OPTICAL CO.,LTD
+Camera Model Name               : C2Z,D520Z,C220Z
+Orientation                     : Horizontal (normal)
+X Resolution                    : 144
+Y Resolution                    : 144
+Resolution Unit                 : inches
+Software                        : 83-1054
+Modify Date                     : 0000:00:00 00:00:00
+Y Cb Cr Positioning             : Co-sited
+Exposure Time                   : 1/250
+F Number                        : 8.0
+Exposure Program                : Program AE
+ISO                             : 80
+Exif Version                    : 0210
+Date/Time Original              : 0000:00:00 00:00:00
+Create Date                     : 0000:00:00 00:00:00
+Components Configuration        : Y, Cb, Cr, -
+Max Aperture Value              : 2.8
+Metering Mode                   : Multi-segment
+Flash                           : No Flash
+Focal Length                    : 5.0 mm
+Special Mode                    : Normal, Sequence: 0, Panorama: (none)
+Quality                         : HQ (Normal)
+Macro                           : Off
+Black And White Mode            : Off
+Digital Zoom                    : 1.0
+Focal Plane Diagonal            : 5.7 mm
+Lens Distortion Params          : -222 -471 -566 -223 -471 -564
+Camera Type                     : C2Z,D520Z,C220Z
+Camera ID                       : OLYMPUS DIGITAL CAMERA
+Shutter Speed Value             : 1/279
+ISO Value                       : 79.44
+Aperture Value                  : 7.7
+Brightness Value                : 9.34375
+Flash Mode                      : Off
+Flash Device                    : Unknown (0 0)
+Exposure Compensation           : 0
+Light Condition                 : 0
+Focus Range                     : Normal
+Focus Mode                      : Auto
+Manual Focus Distance           : 0 mm
+Zoom Step Count                 : 1
+Focus Step Count                : 256
+Sharpness                       : Normal
+Flash Charge Level              : 0
+Color Matrix                    : 344 -104 12 -42 358 -64 -2 -128 380
+Black Level                     : 16 16 15 15
+WB Mode                         : Auto
+Red Balance                     : 1.3046875
+Blue Balance                    : 1.1171875
+Serial Number                   : 109022761
+Flash Exposure Comp             : undef
+Internal Flash Table            : 0
+External Flash G Value          : undef
+External Flash Bounce           : No
+External Flash Zoom             : 0
+External Flash Mode             : 0
+Contrast                        : Normal
+Sharpness Factor                : 416
+Color Control                   : 24 1024 768 1024 16 256
+Valid Bits                      : 10 0
+Coring Filter                   : 2048
+Olympus Image Width             : 1600
+Olympus Image Height            : 1200
+Scene Detect                    : 0
+AF Result                       : 0
+Light Value Center              : 9.6015625
+Light Value Periphery           : 8.91796875
+User Comment                    : 
+Flashpix Version                : 0100
+Color Space                     : sRGB
+Exif Image Width                : 1600
+Exif Image Height               : 1200
+Interoperability Index          : R98 - DCF basic file (sRGB)
+Interoperability Version        : 0100
+File Source                     : Digital Camera
+Compression                     : JPEG (old-style)
+Thumbnail Offset                : 6578
+Thumbnail Length                : 6489
+Image Width                     : 1600
+Image Height                    : 1200
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:2 (2 1)
+Aperture                        : 8.0
+Image Size                      : 1600x1200
+Megapixels                      : 1.9
+Scale Factor To 35 mm Equivalent: 7.6
+Shutter Speed                   : 1/250
+Thumbnail Image                 : (Binary data 6489 bytes, use -b option to extract)
+Circle Of Confusion             : 0.004 mm
+Field Of View                   : 50.7 deg
+Focal Length                    : 5.0 mm (35 mm equivalent: 38.0 mm)
+Hyperfocal Distance             : 0.79 m
+Light Value                     : 14.3

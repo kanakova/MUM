@@ -1,0 +1,24 @@
+ExifTool Version Number         : 12.54
+File Name                       : qr-code-vspj_v2.svg
+Directory                       : .
+File Size                       : 96 kB
+File Modification Date/Time     : 2023:01:15 14:23:11+01:00
+File Access Date/Time           : 2023:01:29 14:48:50+01:00
+File Creation Date/Time         : 2022:12:19 22:16:48+01:00
+File Permissions                : -rw-rw-rw-
+File Type                       : SVG
+File Type Extension             : svg
+MIME Type                       : image/svg+xml
+Version                         : 1.2.1 (9c6d41e410, 2022-07-14)
+Docname                         : qr-code-vspj_v2.svg
+Enable-background               : new 0 0 2320 2320
+View Box                        : 0 0 2900 2900
+Image Height                    : 2900
+Image Width                     : 2900
+Tag Y                           : 0px
+Tag X                           : 0px
+ID                              : Layer_1
+SVG Version                     : 1.1
+Xmlns                           : http://www.w3.org/2000/svg
+Image Size                      : 2900x2900
+Megapixels                      : 8.4
