@@ -1,14 +1,25 @@
+1. Úvod
+Komprese dat je zpracování poèítaèových dat s cílem zmenšit jejich objem pøi souèasném zachování informací v datech obsažených. V pøípadì ztrátové komprese grafiky je koneèným arbitrem kvality lidský zrak, proto se v kompresních algoritmech využívá psychovizuální model.
+Pøedmìtem zkoumání této práce bude zjistit, do jaké míry je snížení kvality nepozorovatelné. A jaký na to mají vliv rùzné rastrové grafické formáty - JPEG (*.jpg), JPEG 2000 (*.jp2) a JPEG XL (*.jxl).
+
+2. Motivace a hypotézy
+Ztrátová komprese rastrových formátù je dùležitá napøíklad pro používání obrázkù na webu nebo odesílání obrázkù messengery èi emailem, kde je uživatel èasto omezen dostupnou velikostí. Proto je dobré vìdìt, jak moc je možné obrázek zkomprimovat bez ztráty viditelné kvality. Myslím si, že nejlepší kompresní pomìr bude mít nový formát JPEG XL, nejhorší JPEG.
+
+3. Metodika, zpùsob øešení
+Využívat budu dávkovou konverzi programu IrfanView, který díky pluginùm umožòuje otevírat a ukládat do formátù JPEG 2000 a JPEG XL a také otevírat soubory formátù SVG a CR3.
+Použiji ètyøi rùzné druhy obrázkù - fotografii JPEG nízké kvality vyfocenou tlaèítkovým mobilním telefonem; fotografii JPEG støední kvality vyfocenou kompaktním fotoaparátem; fotografii CR3 (RAW soubor ve kterém je zabalen i JPEG, který IrfanView zobrazuje a konvertuje) vyfocenou digitální zrcadlovkou a vektorovou SVG grafiku. Bližší podrobnosti v tabulce.
+Komprimovat budu nejprve originální obrázek do kvality 100, 80, 40, 60 a 20; v pøípadì JPEG XL, který neumožòuje kompresi do kvality 100, využiji nejvyšší možnou ztrátovou kompresi a to 99. A pak jednotlivé soubory ještì jednou pøekomprimuji do nižší kvality - napøíklad originál -> kvalita 40 -> kvalita 20 (viz napø. soubor P1010268_40-20.jp2).
+Porovnávat budu obrázky pøi stejné velikosti okna (výška cca 28 cm).
+
+4. Výsledky
+Na fotografii nízké kvality nejsou vady rušívé ani pøi nejnižší kompresi, protože obrázek už je znaènì nekvalitní sám o sobì. V pøípadì fotografie støední kvality jsou od komprese 60 viditelné vady, ale formát JPEG XL a JPEG 2000 je snesitelný ještì i v kvalitì 60 kdežto u JPEG je tato komprese již pøíliš ztrátová. V pøípadì fotografie vysoké kvality lze komprimovat 60 a v pøípadì JPEG 2000 a JPEG XL dokonce i 40. Nejlépe jsou vady pøi snížení kvality patrné na SVG grafice, u které jsou výsledky podobné fotografii vysoké kvality. Pøièemž pro všechny formáty platí, že po jedné kompresi jsou soubory kvalitnìjší než po dvou.
+Nejlepší kompresní pomìr - pomìr kvalita:velikost má JPEG XL, nejhorší JPEG. Napøíklad pøi snížení kvality u fotografie vysoké kvality na 80% je velikost souboru JPEG 2000 menší o pìtinu než JPEG a JPEG XL dokonce o víc než tøetinu. Naopak pøi stejné snížení kvality SVG grafiky má JPEG XL stejnì dobrý výsledek, ale JPEG 2000 je skoro dvakrát vìtší než JPEG.
+V pøípadì snížení kvality na 80% u fotografie støední a nízké kvality se snížila velikost souboru JPEG skoro na polovinu a JPEG XL ještì ménì. Vìtší snižování kvality samozøejmì znamenalo další zmenšování souboru, ale je zajímavé, že nìkolikanásobná komprese soubor zmenšení souboru nijak výraznì nepøinesla, nìkdy dokonce naopak byl soubor naopak vìtší.
 Nejdéle trvala dávková konverze JPEG XL, nejrychlejší byla JPEG, u kterého zároveò platilo èím nižší kvalita tím rychlejší konverze.
 
+5. Diskuse
+Nepøekvapilo mì, že nejlepší výsledek pøináší JPEG XL, i když za cenu delší konverze obrázku. Nedivím se, že JPEG 2000 neporazil v popularitì JPEG, protože i když komprese na nižší kvalitu mùže pøinést lepší výsledek, soubor bývá nìkdy vìtší, JPEG XL je v tomto smìru konzistentnìjší a použití tohoto formátu znamená vždy vìtší úsporu velikosti a to bez ohledu na vstupní formát a zvolenou kompresi èi poèet kompresí. Bohužel JPEG XL taky není pøíliš rozšíøený, takže jeho použití napøíklad na webových stránkách nedoporuèuje, protože ho vìtšina prohlížeèù nepodporuje.
 
-1.     Úvod – zasazení úkolu do kontextu probírané látky, co bude pøedmìtem zkoumání.
-
-2.     Motivace a hypotézy – popsat, proè budeme daný jev zkoumat, co oèekáváme za výsledky.
-
-3.     Metodika, zpùsob øešení – popsat a zdùvodnit, jakým zpùsobem budeme problém øešit, jaké použijeme nástroje (hardware, software,...), jaká použijeme testovací data, jakým zpùsobem budeme posuzovat (hodnotit, mìøit, srovnávat,...) výsledky, atd.
-
-4.     Výsledky – popis dosažených výsledkù (èeho jsme dosáhli a jakými postupy), pøehledná vizualizace èíselných údajù (tabulky, grafy), demonstrace nejpodstatnìjších výstupù (pøehrání audio èi video ukázek, projekce obrázkù,...).
-
-5.     Diskuse – úvaha nad tím, proè vyšlo právì to, co vyšlo, zdùvodnìní výsledkù, nalezení pøípadných analogií z pøíbuzných oblastí, komentáø k tomu, co se povedlo a co se nepovedlo a proè, upozornìní na nejpodstatnìjší jevy.
-
-6.     Závìr – popsat, jaké ponauèení si vezmeme z dosažených výsledkù a ze zpùsobu jejich získání (na co si dát pøíštì pozor, jak správnì postupovat pøi øešení podobných úkolù,...), jak se dají výsledky použít v praxi, jaké dùsledky z našich výstupù plynou.
+6. Závìr
+JPEG XL se zdá jako velmi slibný formát, navíc umožòuje nejen velmi dobrou ztrátovou kompresi, ale i beztrátovou kompresi. S práce také vyplývá, že jaký kompresní pomìr zvolit záleží i na kvalitì vstupního obrázku a že vektorová grafika by se ideálnì nemìla pøevádìt do rastrové, protože nejenže se sníží její kvalita, ale zvìtší se i velikost výsledného souboru.
+Ze zpracování tohoto úkolu jsem si také vzala pouèení, že i když výrobce uvádí vysokou hodnotu megapixelù ještì to neznamená kvalitní fotografii, alespoò to urèitì platilo u starých tlaèítkových telefonù, protože fotografie z mobilního telefonu s 3.1 Mpx je daleko ménì kvalitní než fotografie z kompaktního fotoaparátu s 1.9 Mpx.
